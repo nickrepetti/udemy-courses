@@ -1,6 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   font-family: Helvetica Neue, Arial;
   font-size: 18px;
+}
+
+.container {
+  margin: 20px auto 0px auto;
+  width: 1140px;
+}
+
+.blog-post {
+  float: left;
+  padding-right: 30px;
+  width: 75%;
+}
+
+.other-posts {
+  float: left;
+  width: 25%;
+}
+
+.author-box {
+  border-top: 1px solid #808080;
+  padding-top: 20px;
 }
 
 h1, h2 {
@@ -9,13 +42,20 @@ h1, h2 {
 
 h1 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
-p {
+.main-text {
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+.author-text {
+  font-size: 22px;
 }
 
